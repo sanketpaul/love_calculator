@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alatsi&family=Bree+Serif&family=Caveat+Brush&family=Chewy&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=DynaPuff&family=Gentium+Book+Plus&family=Major+Mono+Display&family=Mali:wght@500&family=Pacifico&family=Varela+Round&display=swap');
+.container{
+    border: 2px solid rgb(131, 29, 36);
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 29px;
+    text-align: center;
+    background-color:rgb(239, 168, 168);
+    box-shadow: rgba(62, 15, 11, 0.25) 0px 30px 60px -12px inset, rgba(94, 28, 28, 0.3) 0px 18px 36px -18px inset;
+    font-family: 'DynaPuff', cursive;
+}
+.container h1{
+    animation: sanket,infinite,ease-in-out;
+}
+@keyframes sanket{
+    
+    
+}
+.inputarea input{
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    font-size: 18px;
+    padding: 9px;
+    font-family: 'DynaPuff', cursive;
+}
+.buttons{
+    margin-top: 30px;
+    /* font-family: 'DynaPuff', cursive; */
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:  rgb(131, 29, 36);
+    color: white;
+    font-family: 'DynaPuff', cursive;
+    font-size: 20px;
+    box-shadow: rgb(162, 65, 68) 0px 20px 30px -10px;
+}
+.btn:active{
+    transform: translateY(5px);
+}
+.print{
+    /* border: 1px solid rgb(131, 29, 36); */
+    width: 60%;
+    margin:20px auto;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: white;
+}
+.statement{
+    margin: 10px 0px;
+}
